@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="landing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="logo">Tomato</div>
+
+        <div class="hamber" id="hamberger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+        <nav class="nav-bar" id="navbar">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Our Menu</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <div class="content">
+        <div class="text">
+            <span>DINE BEYOND THE ORDINARY</span>
+            <h1>Flavors that speak louder than words</h1>
+            <p>Creative and expressive way of conveying the idea that the taste 
+                and experience of the food at a particular restaurant 
+                are so exceptional , distinctive, and satisfying
+            </p>
+            <button>Order Now</button> 
+            <h4><i class="fa-solid fa-circle-play"></i>Order Process</h4>
+            <div class="social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+
+        <div class="image">
+            <img src="Burger1.jpg" alt="">
+        </div>
+    </div>
+    <p class="one">Lorem ipsum dolor sit amet consectetur adipisicing elit.That is more swweet Animi sequi dicta at ducimus minus? Recusandae, nulla omnis reprehenderit nisi beatae deleniti dolor tempore rerum quis facilis? Ducimus accusantium facere sunt.</p>
+    <div class="menu">
+        <div class="menu-food">
+            <img src="food_8.png" alt="">
+            <p>Chicken Puff</p>
+            <h5>$2</h5>
+        </div>
+        <div class="menu-food">
+            <img src="food_7.png" alt="">
+            <p>Veg Role</p>
+            <h5>$2</h5>
+        </div>
+        <div class="menu-food">
+            <img src="food_6.png" alt="">
+            <p>Clicken Role</p>
+            <h5>$2</h5>
+        </div>
+        <div class="menu-food">
+            <img src="food_5.png" alt="">
+            <p>Chicken Puff</p>
+            <h5>$2</h5>
+        </div>
+        <div class="menu-food">
+            <img src="food_13.png" alt="">
+            <p>sandwich</p>
+            <h5>$2</h5>
+        </div>
+        <div class="menu-food">
+            <img src="food_17.png" alt="">
+            <p>Ice Creame</p>
+            <h5>$2</h5>
+        </div>
+        <div class="menu-food">
+            <img src="food_18.png" alt="">
+            <p>strawberry cake</p>
+            <h5>$2</h5>
+        </div>
+        <div class="menu-food">
+            <img src="food_14.png" alt="">
+            <p>pastha</p>
+            <h5>$2</h5>
+        </div>
+    </div>
+ 
+    <script>
+           hamberger=document.getElementById("hamberger")
+           hamberger.onclick=function(){
+            nav=document.getElementById("navbar")
+            nav.classList.toggle("active")
+           }
+    </script>
+</body>
+</html>
